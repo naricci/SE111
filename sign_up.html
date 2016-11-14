@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--Nicholas Ricci - SE 111.22 - Campaign Website:  Part 5-->
+<html>
+	<head>
+		<title>Sign Up America!</title>
+		<meta charset="UTF-8">
+		<!--Link for my stylesheet-->
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<!--Link for my JavaScript-->
+		<script src="script.js" type="text/javascript"></script>
+		<style>
+            
+		    #submit {
+			    margin-top: 20px;	
+		    }
+            
+		    span {
+			    color: rgb(194, 21, 21);
+            }
+            
+            #main {
+                width: 905px;
+                height: 530px;
+            }
+	    </style> 
+	</head>
+	
+	<body>
+    
+	    <!--Main Div-->
+		<div id="wrapper">
+            
+            <!--Header-->
+            <header id="header">
+                <img id="medium-pin" src="images/medium-pin.png" alt="Colbert 2016 Pin">
+                <h1 class="name">Stephen Colbert for President! - 2016</h1>
+                <h2>- I Am America!  And So Can You! -</h2>
+            </header>
+        
+             <!--Navigation Bar-->
+            <nav id="nav">
+                <div class="btn-container">
+				    <a href="index.html" class="btn">HOME</a>
+        		    <a href="bio.html" class="btn">BIO</a>
+				    <a href="issues.html" class="btn">ISSUES</a>
+				    <a href="events.html" class="btn">EVENTS</a>
+				    <a href="videos.html" class="btn">VIDEOS</a>
+				    <a href="sign_up.html" class="btn">SIGN UP</a>
+				</div>
+            </nav>
+            
+            <!--Main Section-->
+            <section id="main">
+                <h2 id="sign-up-title">- Sign Up for all the latest news about me, Stephen Colbert, America! -</h2>
+                
+                <!--Contact Form-->
+                <form>
+				    <h2 class="forms">First Name</h2>
+				    <span id="first-name-error"></span>
+				    <input type="text" id="first-name"> <!--Input Text Box-->
+				
+				    <h2 class="forms">Last Name</h2>
+				    <span id="last-name-error"></span><br>
+				    <input type="text" id="last-name"><br>
+				
+				    <h2 class="forms">Email Address</h2>
+				    <span id="email-address-error"></span><br>
+				    <input type="text" id="email-address"><br>
+				
+				    <h2 class="forms">Email Address</h2>
+				    <span id="email-address-confirm-error"></span><br>
+				    <input type="text" id="email-address-confirm"><br>
+				    
+				    <!--Submit Button-->
+				    <div>
+					    <input type="button" id="submit" value="submit">
+				    </div>
+			    </form>
+            </section>
+            
+            <!--Footer-->
+            <footer id="footer">
+                <img class="small-pin" src="images/small-pin.png" alt="Colbert 2016 Pin">
+                <h5>&copy; Copyright Stephen Colbert, 2016. He's already won people.  You just don't know it...yet.</h5>
+            </footer>
+            
+        <!--End of Main Div-->    
+		</div>    
+	</body>
+</html>

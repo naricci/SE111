@@ -1,0 +1,205 @@
+/*Nicholas Ricci - SE 111.22 - Campaign Website:  Part 5*/
+/*BODY/BACKGROUND*/
+body {
+    padding: 0 0 0 0;
+    background-image: url(images/DeadPresidents.jpg);
+    background-size: 245px 300px;
+    font-family: 'Arial';
+    color: rgb(238, 238, 238);
+}
+/*WRAPPER - MAIN DIV*/
+
+#wrapper {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border: 2px solid rgb(238, 238, 238);
+}
+
+/*HEADER*/
+
+#header { 
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 940px;
+    height: 150px;
+    text-align: center;
+    background: linear-gradient(red, white, blue);
+    color: black;
+}
+
+#medium-pin {
+    float: left;
+}
+
+.name {
+    font-family: 'Georgia';
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/*NAVIGATION BARS*/
+
+#nav {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+.btn-container {
+    margin-left: 75px;
+}
+
+.btn {
+	float: left;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+    
+}
+
+.btn:hover {
+	float: left;
+	width:130px;
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	color: purple;
+	text-decoration: underline;
+    background-image: url(images/bill_button.png);
+}
+
+/*MAIN CONTENT WITHIN EACH PAGE*/
+
+#main {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-top: 10px solid rgb(15, 58, 101);
+    padding-left: 45px;
+    padding-top: 10px;
+}
+
+#index-content {
+    float: left;
+    width: 910px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-right: 20px;
+    height: 500px;
+    text-align: justify;
+}
+
+#mini-bill {
+    float: left;
+    padding-left: 220px;
+}
+
+.home {
+    text-align: justify;
+    /*font-weight: 24px;*/
+    line-height: 30px;
+}
+
+#left {
+    float: left;
+    width: 600px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    height: 500px;
+    border-top: 10px solid rgb(15, 58, 101);
+}
+
+.title {
+    font-family: 'Georgia';
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#sign-up-title {
+    font-family: 'Georgia';
+    font-size: 24;
+}
+
+li {
+    padding-bottom: 30px;
+}
+
+/*THANK YOU PAGE*/
+
+#ty-title {
+    float: right;
+}
+
+#ty-content {
+    float: left;
+    width: 930px;
+    padding-top: 30px;
+    padding-left: 20px;
+    height: 500px;
+    text-align: justify;
+    background-image: url(images/colbert_stewart.jpg);
+    background-origin: cover;
+    color: black;
+}
+
+/*Main Content - Right Side/Aside*/
+
+#right {
+    float: right;
+    width: 310px;
+    height: 500px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    border-top: 10px solid rgb(15, 58, 101);
+}
+
+#aside-photo-comment {
+    clear: both;
+    font-size: 11px;
+}
+
+/*PHOTOS/VIDEOS IN MAIN CONTENT AREA*/
+
+iframe {
+    border: 2px solid rgb(238, 238, 238);    
+}
+
+#book {
+    float: left;
+    padding-top: 20px;
+}
+
+#news {
+    float: left;
+    padding-top: 20px;
+}
+
+#eagle {
+    float: left;
+    padding-top: 20px;
+}
+
+/*FOOTER*/
+
+#footer {
+    clear: both;
+    height: 40px;
+    background-color: rgb(194, 21, 21);
+    text-align: center;
+    border-top: 5px solid rgb(15, 58, 101);
+}
+
+.small-pin {
+    padding-left: 5px;
+    float: left;
+}
